@@ -1,7 +1,7 @@
 qmk compile -kb mechbrewery/mb65s -km default
 qmk compile -kb mechbrewery/mb65s -km iso
 qmk compile -kb mechbrewery/mb65s -km split_bs
-
+qmk compile -kb mechbrewery/mb65s -km via
 
 git pull --rebase upstream master
 git push --force-with-lease origin master
