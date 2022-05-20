@@ -9,6 +9,15 @@ qmk compile -kb mechbrewery/mb65s -km ansi_blocker_split_bs_7u_spc      :DONE
 qmk compile -kb mechbrewery/mb65s -km iso_blocker_split_bs_7u_spc       :DONE
 qmk compile -kb mechbrewery/mb65s -km via                       :DONE
 
+
+
+
+-----------------------------------------------------------------------------
+
+
+qmk compile -kb mechbrewery/mb65h -km via:              DONE
+qmk compile -kb mechbrewery/mb65h -km default:          DONE
+
 =======================================================================================================================
 git pull --rebase upstream master
 git push --force-with-lease origin master
@@ -19,7 +28,7 @@ Steps to update fork:
 =======================================================================================================================
 git remote -v
 git fetch upstream
-git rebase upstream/master
+git rebase upstream/master hoặc git reset --hard origin/master
 git pull upstream master
 git push -f origin master
 
