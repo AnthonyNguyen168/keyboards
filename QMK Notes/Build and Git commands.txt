@@ -10,15 +10,9 @@ qmk compile -kb mechbrewery/mb65s -km via                       :test
 
 -----------------------------------------------------------------------------
 
-
 qmk compile -kb mechbrewery/mb65h -km via:              DONE
 qmk compile -kb mechbrewery/mb65h -km default:          DONE
 
-=======================================================================================================================
-qmk compile -kb mechbrewery/mb65s -km ansi_blocker              :DONE, REMOVED
-qmk compile -kb mechbrewery/mb65s -km iso_blocker               :DONE, REMOVED
-qmk compile -kb mechbrewery/mb65s -km ansi_blocker_7u_spc       :DONE, REMOVED
-qmk compile -kb mechbrewery/mb65s -km iso_blocker_7u_spc        :DONE, REMOVED
 =======================================================================================================================
 git pull --rebase upstream master
 git push --force-with-lease origin master
