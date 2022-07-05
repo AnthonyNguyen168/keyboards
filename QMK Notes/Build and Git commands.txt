@@ -1,17 +1,11 @@
-qmk compile -kb mechbrewery/mb65s -km default                   :DONE1
-qmk compile -kb mechbrewery/mb65s -km ansi_blocker     :DONE (actually split)
-qmk compile -kb mechbrewery/mb65s -km iso_blocker      :DONE (actually split)
-qmk compile -kb mechbrewery/mb65s -km ansi_blocker_tsangan      :DONE
-qmk compile -kb mechbrewery/mb65s -km iso_blocker_tsangan       :DONE
-qmk compile -kb mechbrewery/mb65s -km via                       :test
-
-
-
-
------------------------------------------------------------------------------
-
-qmk compile -kb mechbrewery/mb65h -km via:              DONE
-qmk compile -kb mechbrewery/mb65h -km default:          DONE
+qmk compile -kb mechbrewery/mb65s -km ansi_blocker
+qmk compile -kb mechbrewery/mb65s -km ansi_blocker_7u_spc
+qmk compile -kb mechbrewery/mb65s -km default
+qmk compile -kb mechbrewery/mb65s -km iso_blocker
+qmk compile -kb mechbrewery/mb65s -km iso_blocker_tsangan
+qmk compile -kb mechbrewery/mb65s -km via
+qmk compile -kb mechbrewery/mb65h -km via
+qmk compile -kb mechbrewery/mb65h -km default
 
 =======================================================================================================================
 git pull --rebase upstream master
@@ -32,7 +26,7 @@ git push -f origin master
 git add .
 git commit
 git commit --amend
-git push --force-with-lease origin master 
+git push --force-with-lease origin master
 
 git commit
 git push -f origin master
