@@ -6,6 +6,8 @@ qmk compile -kb mechbrewery/mb65s -km iso_blocker_tsangan
 qmk compile -kb mechbrewery/mb65s -km via
 qmk compile -kb mechbrewery/mb65h -km via
 qmk compile -kb mechbrewery/mb65h -km default
+qmk compile -kb canary/canary60rgb/v2 -km via -j12
+qmk compile -kb canary/canary60rgb/v2 -km default -j12
 
 =======================================================================================================================
 git pull --rebase upstream master
@@ -48,9 +50,9 @@ git push -f origin master
 - [ ] Core
 - [ ] Bugfix
 - [ ] New feature
-- [x] Enhancement/optimization
-- [ ] Keyboard (addition or update)
-- [x] Keymap/layout/userspace (addition or update)
+- [ ] Enhancement/optimization
+- [x] Keyboard (addition or update)
+- [ ] Keymap/layout/userspace (addition or update)
 - [ ] Documentation
 
 ## Issues Fixed or Closed by This PR
